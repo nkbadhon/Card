@@ -1,4 +1,4 @@
-
+import { CodeBracketSquareIcon } from '@heroicons/react/24/solid'
 const Card = () => {
     return (
         <div className="max-w-md mx-auto bg-white rounded-md overflow-hidden shadow-md">
@@ -11,7 +11,7 @@ const Card = () => {
 
             {/* Title */}
             <div className="px-6 py-4">
-                <div className="font-bold text-xl mb-2">শুভ জন্মদিন সিন্ধু মির্জা!</div>
+                <div className="font-bold text-xl mb-2">শুভ জন্মদিন!</div>
             </div>
 
             {/* Paragraphs */}
@@ -19,8 +19,9 @@ const Card = () => {
                 <p className="text-left mb-4">
                     বাইচা থাক, ঢাকা আইতেছি।
                 </p>
-                <p className="text-left">
-                    <a href="https://www.example.com">Click Me!</a>
+                <p className="text-left size-8">
+                    <a href="https://github.com/nkbadhon/Card/blob/main/src/Card.tsx"><CodeBracketSquareIcon /></a>
+
                 </p>
             </div>
         </div>
