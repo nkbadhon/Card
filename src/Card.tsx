@@ -19,8 +19,8 @@ const Card = () => {
                 <p className="text-left mb-4">
                     বাইচা থাক, ঢাকা আইতেছি।
                 </p>
-                <p className="text-left size-8">
-                    <a href="https://github.com/nkbadhon/Card/blob/main/src/Card.tsx"><CodeBracketSquareIcon /></a>
+                <p className="ms-24 size-10 hover:text-purple-800 ">
+                    <a href="https://github.com/nkbadhon/Card/blob/main/src/Card.tsx" ><CodeBracketSquareIcon /></a>
 
                 </p>
             </div>
