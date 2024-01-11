@@ -2,8 +2,10 @@ import Card from "./Card";
 
 export default function App() {
   return (
-    <>
-      <Card></Card>
-    </>
+    <div >
+      <section className="content-center">
+        <Card></Card>
+      </section>
+    </div>
   )
 }
